@@ -55,7 +55,7 @@ information_obj = sp_obj.current_user()
 user_id = information_obj['id']
 # create a playlist
 playlist = sp_obj.user_playlist_create(user=user_id,
-    name=f"Biullboard Top100 on {travel_date}",
+    name=f"Billboard Top100 on {travel_date}",
     public=False,
     collaborative=False,
     description=f"This playlist contains the top 100 songs of the Billboard chart on {travel_date}")
