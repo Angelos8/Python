@@ -6,7 +6,7 @@ from wtforms import StringField, SubmitField
 from wtforms.validators import DataRequired
 import requests as rq
 
-TMBD_API = '9e76794aa85953ff9f749a8f033a5ca2'
+TMBD_API = 'api key'
 
 
 class RateMovieForm(FlaskForm):
